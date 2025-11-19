@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niki - Web profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="site-branding">
+            <a href="#hero">Niki</a> 
+        </div>
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#hero">Home</a></li> 
+                <li><a href="#tentang">About</a></li>
+                <li><a href="#kontak-detail">contact</a></li>
+                <li><a href="#kontak-form">Feed Back</a></li>
+            </ul>
+        </nav>
+        
+        </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <img src="aset/image/Foto-profile.jpg" alt="Foto Profil Anda" class="profile-pic">
+            <h1>Niki septiarini </h1>
+            <p class="tagline">Pengembang Web | Pelajar | [Newbie Web Developer]</p>
+        </div>
+    </section>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Nama Saya adalah <span id="typed-text"></span><span class="blinking-cursor">|</span></p>
+            <p>Seorang individu yang bersemangat dengan teknologi dan desain. Saya percaya bahwa kombinasi antara logika kode dan estetika visual dapat menghasilkan solusi digital yang luar biasa.</p>
+            <button id="tombol-sapa">Sapa Saya!</button>
+        </section>
+
+        <section id="kontak-detail">
+            <h2>Detail Informasi</h2>
+            <div class="contact-grid">
+
+                <div class="contact-item">
+                    <div class="icon-circle email-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3>EMAIL</h3>
+                        <p>septiarininiki@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="icon-circle phone-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div>
+                        <h3>PHONE</h3>
+                        <p>+62 83187186751</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="icon-circle birthday-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div>
+                        <h3>BIRTHDAY</h3>
+                        <p>06 oktober 2009</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="icon-circle location-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h3>LOCATION</h3>
+                        <p>Darangdan Purwakarta Jawa barat</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="kontak-form">
+            <h2>Kirim Pesan Langsung</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="5" required></textarea>
+                </div>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            <div id="form-status"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="mailto:septiarininiki@gmail.com" target="_blank" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href=https://www.instagram.com/xyznikq?igsh=MTM1cXRqbmVuYXRnaA==" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/septiarininiki-collab" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.tiktok.com/@xyznattawat?_r=1&_t=ZS-91WAoZ5JHzo" target="_blank" aria-label="Tiktok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Niki, semua hak cipta dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
